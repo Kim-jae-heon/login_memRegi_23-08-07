@@ -1,0 +1,27 @@
+.login {
+  width: 100%; height: 100vh;
+  display: flex; justify-content: center; align-items: center;
+}
+.login-form {
+  width: 500px; height: 300px; display: flex; flex-direction: column;
+}
+.login-form > h1 {
+  margin : 0 0 10px 0; font-size: xx-large; 
+}
+.login-form > input {
+  height: 40px; font-size: large; line-height: 46px;
+  margin-bottom: 10px;
+}
+.login-form > button:nth-of-type(1) {
+  width: 70px; font-size: large; 
+}
+.login-form > button:nth-of-type(2) {
+  width: 100px; font-size: large; position: relative;
+  left: 400px; bottom: 30px; height: 31px;
+}
+.login-form > button:nth-of-type(2) > a {
+  text-decoration: none; color: black;
+  display: inline-block; width: 100px;
+  position: relative; left: -7px; height: 31px;
+  top: -1px; line-height: 31px;
+}

@@ -1,0 +1,18 @@
+.register-main h1 {
+  color: rgb(0, 0, 35);
+}
+.register-main #register {
+  width: 800px;
+}
+.register-main #register .reset-btn {
+  position: relative; left: 230px; bottom: 56px;
+}
+.register-main #register .home-btn {
+  position: relative; left: 299px; bottom: 112px;
+  width: 102px; height: 32px;
+}
+.register-main #register .to-home {
+  width: 102px; height: 32px; display: block;
+  position: relative; right: 16px; top: -5px;
+  line-height: 32px;
+}
